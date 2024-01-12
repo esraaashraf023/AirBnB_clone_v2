@@ -24,7 +24,7 @@ server {
     listen 80;
     add_header X_Served_by \$HOSTNAME;
     listen [::]:80 default_server;
-    server_name tuttrue.tech;
+    server_name ziadhamdy.tech;
     location /hbnb_static {
         alias /data/web_static/current/;
     }
